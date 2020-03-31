@@ -1,0 +1,4 @@
+#!/bin/sh
+
+wifi="$(netctl status wlp4s0-slappeh | grep Status)"
+echo $wifi | sed 's/Status: \"online\"/Wifi On/' || echo 'Wifi Off' | sed -i 's/ //g'
