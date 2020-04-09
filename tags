@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Block	dwmblocks.c	/^} Block;$/;"	t	typeref:struct:__anon7273fc5c0108	file:
+CMDLENGTH	dwmblocks.c	/^#define CMDLENGTH	/;"	d	file:
+Dependencies	README.md	/^# Dependencies$/;"	c
+Introduction	README.md	/^# Introduction$/;"	c
+LENGTH	dwmblocks.c	/^#define LENGTH(/;"	d	file:
+Running dwmblocks	README.md	/^# Running dwmblocks$/;"	c
+What is dwmblocks?	README.md	/^# What is dwmblocks?$/;"	c
+__anon7273fc5c0108	dwmblocks.c	/^typedef struct {$/;"	s	file:
+blocks	blocks.h	/^static const Block blocks[] = {$/;"	v	typeref:typename:const Block[]
+clean	Makefile	/^clean:$/;"	t
+command	dwmblocks.c	/^	char* command;$/;"	m	struct:__anon7273fc5c0108	typeref:typename:char *	file:
+delim	blocks.h	/^static char delim = '|';$/;"	v	typeref:typename:char
+dpy	dwmblocks.c	/^static Display *dpy;$/;"	v	typeref:typename:Display *	file:
+dummysighandler	dwmblocks.c	/^void dummysighandler(int signum)$/;"	f	typeref:typename:void
+getcmd	dwmblocks.c	/^void getcmd(const Block *block, char *output)$/;"	f	typeref:typename:void
+getcmds	dwmblocks.c	/^void getcmds(int time)$/;"	f	typeref:typename:void
+getsigcmds	dwmblocks.c	/^void getsigcmds(int signal)$/;"	f	typeref:typename:void
+getstatus	dwmblocks.c	/^int getstatus(char *str, char *last)$/;"	f	typeref:typename:int
+help	scripts/cpu_usage	/^sub help {$/;"	s
+icon	dwmblocks.c	/^	char* icon;$/;"	m	struct:__anon7273fc5c0108	typeref:typename:char *	file:
+install	Makefile	/^install: output$/;"	t
+interval	dwmblocks.c	/^	unsigned int interval;$/;"	m	struct:__anon7273fc5c0108	typeref:typename:unsigned int	file:
+main	dwmblocks.c	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+output	Makefile	/^output: dwmblocks.c blocks.h$/;"	t
+pstdout	dwmblocks.c	/^void pstdout()$/;"	f	typeref:typename:void
+replace	dwmblocks.c	/^void replace(char *str, char old, char new)$/;"	f	typeref:typename:void
+root	dwmblocks.c	/^static Window root;$/;"	v	typeref:typename:Window	file:
+screen	dwmblocks.c	/^static int screen;$/;"	v	typeref:typename:int	file:
+setroot	dwmblocks.c	/^void setroot()$/;"	f	typeref:typename:void
+setupsignals	dwmblocks.c	/^void setupsignals()$/;"	f	typeref:typename:void
+sighandler	dwmblocks.c	/^void sighandler(int signum)$/;"	f	typeref:typename:void
+signal	dwmblocks.c	/^	unsigned int signal;$/;"	m	struct:__anon7273fc5c0108	typeref:typename:unsigned int	file:
+statusContinue	dwmblocks.c	/^static int statusContinue = 1;$/;"	v	typeref:typename:int	file:
+statusbar	dwmblocks.c	/^static char statusbar[LENGTH(blocks)][CMDLENGTH] = {0};$/;"	v	typeref:typename:char[][]	file:
+statusloop	dwmblocks.c	/^void statusloop()$/;"	f	typeref:typename:void
+statusstr	dwmblocks.c	/^static char statusstr[2][256];$/;"	v	typeref:typename:char[2][256]	file:
+termhandler	dwmblocks.c	/^void termhandler(int signum)$/;"	f	typeref:typename:void
+writestatus	dwmblocks.c	/^static void (*writestatus) () = setroot;$/;"	v	typeref:typename:void (*)()	file:
