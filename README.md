@@ -3,7 +3,7 @@ This is my build of dwmblocks. It is a tool to modify the statis bar for dwm. It
 1. CPU usage
 2. Memory Usage
 3. Internet bandwidth in and out
-4. Volume level (Still a work in progress)
+4. Volume level
 5. Battery
 6. Date
 7. Time
@@ -17,7 +17,8 @@ As described by torrinfail:
 > Blocks are added and removed by editing the blocks.h header file.
 
 # Dependencies
-All you need is to have dwm installed. 
+* DWM
+* pulseaudio (uses pactl)
 
 # Running dwmblocks
 In your `~/.xinitrc` file put: 
