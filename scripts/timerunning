@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# uptime -p | awk '{print $2" "$3}'
+uptime -p | sed 's/up //' 

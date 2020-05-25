@@ -22,6 +22,8 @@ dpy	dwmblocks.c	/^static Display *dpy;$/;"	v	typeref:typename:Display *	file:
 dummysighandler	dwmblocks.c	/^void dummysighandler(int signum)$/;"	f	typeref:typename:void
 getcmd	dwmblocks.c	/^void getcmd(const Block *block, char *output)$/;"	f	typeref:typename:void
 getcmds	dwmblocks.c	/^void getcmds(int time)$/;"	f	typeref:typename:void
+getdefaultsinkname	scripts/volume	/^getdefaultsinkname() {$/;"	f
+getdefaultsinkvol	scripts/volume	/^getdefaultsinkvol() {$/;"	f
 getsigcmds	dwmblocks.c	/^void getsigcmds(int signal)$/;"	f	typeref:typename:void
 getstatus	dwmblocks.c	/^int getstatus(char *str, char *last)$/;"	f	typeref:typename:int
 help	scripts/cpu_usage	/^sub help {$/;"	s
