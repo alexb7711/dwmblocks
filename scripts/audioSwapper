@@ -8,13 +8,13 @@ source=`pactl list short sinks | grep -w RUNNING | head -c 1`
 
 pactl set-default-sink $source
 
-if [ $1 = "up" ]
+if [ "$1" = "up" ]
 then
 	pactl set-sink-volume $source +5%
-elif [ $1 = "down" ]
+elif [ "$1" = "down" ]
 then
 	pactl set-sink-volume $source -5%
-elif [ $1 = "mute" ]
+elif [ "$1" = "mute" ]
 then
 	pactl set-sink-mute $source toggle
 else
