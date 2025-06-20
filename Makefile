@@ -1,6 +1,6 @@
 PREFIX  := /usr/local
-CC      := cc
-CFLAGS  := -pedantic -Wall -Wno-deprecated-declarations -Os
+CC      := gcc
+CFLAGS  := -g -pedantic -Wall -Wno-deprecated-declarations -Os
 LDFLAGS := -lX11
 
 # FreeBSD (uncomment)
