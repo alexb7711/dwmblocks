@@ -203,7 +203,7 @@ void pstdout()
 
 void statusloop()
 {
-	setupsignals();
+    setupsignals();
     // first figure out the default wait interval by finding the
     // greatest common denominator of the intervals
     for(int i = 0; i < LENGTH(blocks); i++){
@@ -288,12 +288,7 @@ int main(int argc, char** argv)
 		else if(!strcmp("-p",argv[i]))
 			writestatus = pstdout;
 	}
-	/* for (int i = 0; i < argc; i++) {//Handle command line arguments */
-		/* if (!strcmp("-d",argv[i])) */
-			/* strncpy(delim, argv[++i], delimLen); */
-		/* else if (!strcmp("-p",argv[i])) */
-			/* writestatus = pstdout; */
-        /* } */
+
 	signal(SIGTERM, termhandler);
 	signal(SIGINT, termhandler);
 	statusloop();
