@@ -1,4 +1,0 @@
-#!/bin/bash
-# This script monitors CPU and memory usage
-
-echo $(top -bn1 | awk '/Cpu/ { print $2}')%
